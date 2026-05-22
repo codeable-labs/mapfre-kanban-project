@@ -7,6 +7,15 @@ assignees:
   - octocat
 body:
 
+  - type: textarea
+    id: description_text
+    attributes:
+      label: Descripción
+      description: Una breve descripión de lo que se necesita para completar esta tarea
+      placeholder: Pon un abreve descripción!
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: "## 📐 Canal y Formato"
