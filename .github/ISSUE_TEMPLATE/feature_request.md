@@ -1,8 +1,8 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: 'XYZ'
-labels: 'IG, FB, TT, LI'
+name: Nuevo Post
+about: Ticket para solicitud de nuevo post
+title: ''
+labels: ''
 assignees: ''
 
 ---
