@@ -61,17 +61,3 @@ body:
         - Tradicional_ENLACE
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: "## 📁 Tipo de Proyecto"
-
-  - type: dropdown
-    id: proyecto
-    attributes:
-      label: Proyecto
-      options:
-        - Campaña
-        - Táctico
-    validations:
-      required: true
