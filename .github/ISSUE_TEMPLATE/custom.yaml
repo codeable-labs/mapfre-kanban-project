@@ -1,0 +1,122 @@
+
+name: Custom
+about: Template para registrar piezas de diseño con sus parámetros de producción.
+title: '[PROYECTO] Nombre de la pieza'
+labels: ''
+assignees: ''
+
+body:
+
+  - type: markdown
+    attributes:
+      value: "## 📐 Canal y Formato"
+
+  - type: dropdown
+    id: canal_formato
+    attributes:
+      label: Canal_Formato
+      description: Selecciona todos los canales y formatos aplicables.
+      multiple: true
+      options:
+        - Facebook_1080x1080
+        - Facebook_1920x1080
+        - Facebook_4:3
+        - Instagram_1080x1080
+        - Instagram_Stories_1080x1920
+        - TikTok_1080x1920
+        - OOH_Personalizado
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## 🎯 Objetivo"
+
+  - type: dropdown
+    id: objetivo
+    attributes:
+      label: Objetivo
+      options:
+        - Views
+        - Tráfico
+        - Conversión
+        - Branding
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## ⚙️ Configuración de tarea"
+
+  - type: dropdown
+    id: prioridad
+    attributes:
+      label: Prioridad
+      options:
+        - Alta
+        - Media
+        - Baja
+    validations:
+      required: true
+
+  - type: dropdown
+    id: size
+    attributes:
+      label: Size
+      description: Estimación en días de trabajo.
+      options:
+        - "XS (0.2 días)"
+        - "S (0.5 días)"
+        - "M (1.5 días)"
+        - "L (3 días)"
+        - "XL (5 días)"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## 🗂️ Categoría de Producto"
+
+  - type: dropdown
+    id: categoria_producto
+    attributes:
+      label: Categorías_Producto
+      options:
+        - Performance_SaludTotal
+        - Performance_BrandingdeProducto
+        - Performance_Decesos
+        - Performance_DobleProtección
+        - Performance_MultifondosFlex
+        - Performance_EndosoDevolución
+        - Performance_SaludySCTR
+        - Performance_Vida
+        - Tradicional_HTMLs
+        - Tradicional_SaludTotal
+        - Tradicional_CXIndex
+        - Tradicional_DiadelPadre
+        - Tradicional_CasetasCamposanto
+        - Tradicional_SCLDiplomasCorredores
+        - Tradicional_Compartamos
+        - Tradicional_UnidadDePrevención
+        - Tradicional_Furgón
+        - Tradicional_PlataformaSalud
+        - Tradicional_LosBravos
+        - Tradicional_PlataformaDecesos
+        - Tradicional_SCL
+        - Tradicional_ENLACE
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## 📁 Tipo de Proyecto"
+
+  - type: dropdown
+    id: proyecto
+    attributes:
+      label: Proyecto
+      options:
+        - Campaña
+        - Táctico
+    validations:
+      required: true
