@@ -16,14 +16,10 @@ body:
     validations:
       required: true
 
-  - type: markdown
-    attributes:
-      value: "## 📐 Canal y Formato"
-
   - type: dropdown
     id: canal_formato
     attributes:
-      label: Canal_Formato
+      label: 📐 Canal_Formato
       description: Selecciona todos los canales y formatos aplicables.
       multiple: true
       options:
@@ -37,14 +33,11 @@ body:
     validations:
       required: true
 
-  - type: markdown
-    attributes:
-      value: "## 🗂️ Categoría de Producto"
-
   - type: dropdown
     id: categoria_producto
     attributes:
-      label: Categorías_Producto
+      label: 🗂️ Categorías_Producto
+      description: Selecciona la categoría y producto aplicable.
       options:
         - Performance_SaludTotal
         - Performance_BrandingdeProducto
