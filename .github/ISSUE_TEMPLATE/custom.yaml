@@ -2,9 +2,9 @@
 name: Custom
 description: Template para registrar piezas de diseño con sus parámetros de producción.
 title: "[PROYECTO] Nombre de la pieza"
-labels: ""
+labels: [""]
 assignees:
-
+  - octocat
 body:
 
   - type: markdown
