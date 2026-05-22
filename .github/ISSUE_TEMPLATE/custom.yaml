@@ -1,9 +1,9 @@
 
 name: Custom
-about: Template para registrar piezas de diseño con sus parámetros de producción.
+description: Template para registrar piezas de diseño con sus parámetros de producción.
 title: "[PROYECTO] Nombre de la pieza"
 labels: ""
-assignees: ""
+assignees:
 
 body:
 
