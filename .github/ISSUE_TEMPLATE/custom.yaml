@@ -1,10 +1,11 @@
 
 name: Custom
 description: Template para registrar piezas de diseño con sus parámetros de producción.
-title: "[PROYECTO] Nombre de la pieza"
+title: "[PROYECTO] "
 labels: [""]
 assignees:
   - octocat
+type: bug
 body:
 
   - type: textarea
@@ -12,7 +13,6 @@ body:
     attributes:
       label: Descripción
       description: Una breve descripión de lo que se necesita para completar esta tarea
-      placeholder: Pon un abreve descripción!
     validations:
       required: true
 
