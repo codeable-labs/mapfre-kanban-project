@@ -25,11 +25,19 @@ body:
       options:
         - Facebook_1080x1080
         - Facebook_1920x1080
-        - Facebook_4:3
+        - Facebook_1200x628
         - Instagram_1080x1080
-        - Instagram_Stories_1080x1920
-        - TikTok_1080x1920
-        - OOH_Personalizado
+        - Instagram_1920x1080
+        - Instagram_1200x628
+        - TikTok_1920x1080
+        - LinkedIn_1080x1080
+        - LinkedIn_1920x1080
+        - LinkedIn_1200x628
+        - YouTube_1080x1920
+        - YouTube_1920x1080
+        - YouTube_1200x628
+        - Pantallas_512x640_Armendariz
+        - Pantallas_512x512_VascoNuñez
     validations:
       required: true
 
@@ -57,9 +65,10 @@ body:
         - Tradicional_UnidadDePrevención
         - Tradicional_Furgón
         - Tradicional_PlataformaSalud
-        - Tradicional_LosBravos
+        -  Tradicional_LosBravos
         - Tradicional_PlataformaDecesos
         - Tradicional_SCL
         - Tradicional_ENLACE
+
     validations:
       required: true
