@@ -2,10 +2,9 @@
 name: Ticket Nuevo
 description: Template para registrar piezas de diseño con sus parámetros de producción.
 title: "[PROYECTO] "
-labels: ["ticket"]
+labels: ["Ticket"]
 assignees:
   - octocat
-type: feature
 body:
 
   - type: textarea
