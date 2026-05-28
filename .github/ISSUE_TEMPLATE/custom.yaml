@@ -1,7 +1,7 @@
 
 name: Ticket Nuevo
 description: Template para registrar piezas de diseño con sus parámetros de producción.
-title: "[PROYECTO] "
+title: "[MAPFRE] "
 labels: ["Ticket"]
 assignees:
   - octocat
